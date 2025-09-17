@@ -76,7 +76,8 @@ resolver(Alunos) :-
     aolado(aluno(_, _, janeiro, _, _, _), aluno(_, _, setembro, _, _, _), Alunos),
     exatamenteEsquerda(aluno(_, _, _, _, _, uva), aluno(_, _, _, _, portugues, _), Alunos),
     aolado(aluno(_, _, _, 'Prob. de Lógica', _, _), aluno(_, amarela, _, _, _, _), Alunos),
-    aolado(aluno(_, _, setembro, _, _, _), aluno(_, _, _, 'Cubo Vermelho', _, _), Alunos).
+    aolado(aluno(_, _, setembro, _, _, _), aluno(_, _, _, 'Cubo Vermelho', _, _), Alunos),
+    aolado(aluno(_, _, _, 'Jogo da Forca', _, _), aluno(_, vermelha, _, _, _, _), Alunos). % Regra adicionada
 
 % -----------------------------------------------
 % Predicados auxiliares de posição
